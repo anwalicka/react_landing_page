@@ -78,6 +78,43 @@ const page = (
 function Page() {
   return (
     <div>
+      <Header />
+      <MainContent />
+      <Footer/>
+    </div>
+  );
+};
+
+// Chapter 14 Custom Components part 2.
+
+function Header() {
+  return (
+  <div>
+    <header>
+      <nav className="nav">
+        <img src="./React-icon.svg.png" className="nav-logo">
+        </img>
+        <ul className="nav-items">
+          <li className="item">About</li>
+          <li className="item">Pricing</li>
+          <li className="item">Contact</li>
+        </ul>
+      </nav>
+    </header>
+  </div>)
+};
+
+function Footer() {
+  return(
+  <div>
+    <footer>2022 All rights reserved.</footer>
+  </div>)
+}
+
+function MainContent() {
+  return (
+    <div>
+      <h1>Header text</h1>
       <ol>
         Ordered List in Page component
         <li>item 1</li>
@@ -88,5 +125,4 @@ function Page() {
     </div>
   );
 }
-ReactDOM.render(
-    <Page />, document.getElementById('root'));
+ReactDOM.render(<Page />, document.getElementById('root'));
