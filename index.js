@@ -56,5 +56,37 @@ const navbar = (
         </ul>
     </nav>
 );
+
+// document.getElementById('root').append(navbar);
+// console.log(navbar)
+
+// Chapter 11
+
+const page = (
+  <div>
+    <img src="./React-icon.svg.png" width="40px"></img>
+    <h1>Fun facts about React</h1>
+    <ul>
+      <li></li>
+    </ul>
+  </div>
+);
+
+
+// Chapter 13 Custom Components 
+
+function Page() {
+  return (
+    <div>
+      <ol>
+        Ordered List in Page component
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+      </ol>
+    </div>
+  );
+}
 ReactDOM.render(
-    navbar, document.getElementById('root'));
+    <Page />, document.getElementById('root'));
