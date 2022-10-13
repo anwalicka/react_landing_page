@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+import logo from '../src/images/logo.svg';
 import './App.css';
-import Header from './header';
-import Footer from './Footer';
-import MainContent from './MainContent';
+import Header from '../src/components/header';
+import Footer from '../src/components/Footer'
+import MainContent from '../src/components/MainContent';
 function App() {
   return (
     <div>
