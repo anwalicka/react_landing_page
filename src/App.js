@@ -3,10 +3,11 @@ import './App.css';
 import Header from '../src/components/header';
 import Footer from '../src/components/Footer'
 import MainContent from '../src/components/MainContent';
+import Navbar from './components/Navbar';
 function App() {
   return (
-    <div>
-      <Header />
+    <div className='bg-main container'>
+      <Navbar />
       <MainContent />
       <Footer/>
     </div>
