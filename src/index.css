@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -33,7 +31,7 @@ code {
 }
 
 .color-blue {
-  color: rgb(91, 181, 241)
+  color: #61DAFB;
 }
 
 .d-flex {
@@ -51,7 +49,7 @@ code {
   padding-right: 2rem;
 }
 .sub-title {
-  color: rgb(235, 235, 235);
+  color: #DEEBF8;
 }
 .bg-main {
   background-color: rgb(87, 87, 87);
