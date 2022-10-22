@@ -6,7 +6,7 @@ import MainContent from '../src/components/MainContent';
 import Navbar from './components/Navbar';
 function App() {
   return (
-    <div className='bg-main container'>
+    <div className='bg-main'>
       <Navbar />
       <MainContent />
       <Footer/>

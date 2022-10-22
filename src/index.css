@@ -26,11 +26,11 @@ code {
   padding: 0 1rem;
 }
 
-.nav-logo {
+.nav--icon {
   width: 50px;
 }
 
-.color-blue {
+.nav--logo_text {
   color: #61DAFB;
 }
 
@@ -48,11 +48,15 @@ code {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.sub-title {
+.nav--title {
   color: #DEEBF8;
 }
 .bg-main {
   background-color: rgb(87, 87, 87);
+  background-image: url(./images/logo.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
 }
 .footer {
   position: absolute;
@@ -60,5 +64,28 @@ code {
   margin: 1rem;
 }
 .container {
+  padding: 57px 27px;
   height: 100vh;
+}
+
+.container--title {
+  font-size: 39px;
+  color: white;
+  letter-spacing: -0.05rem;
+}
+
+.container--list {
+  margin-top: 46px;
+  color: white;
+  max-width: 400px;
+}
+
+.container--list_item {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.container--list_item::marker {
+  color: #61DAFB;
+  font-size: 1.4rem;
 }

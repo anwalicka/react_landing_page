@@ -6,10 +6,10 @@ export default function Navbar() {
         <div>
             <nav className="bg-black d-flex justify-content-space-between px-2">
                 <div className="d-flex">
-                <img src={logo} className="nav-logo"></img>
-                <h3 className="color-blue">ReactFacts</h3> 
+                <img src={logo} className="nav--icon"></img>
+                <h3 className="nav--logo_text">ReactFacts</h3> 
                 </div>
-                 <h4 className="sub-title">React Course - project 1</h4>
+                 <h4 className="nav--title">React Course - project 1</h4>
             </nav>
            
         </div>
